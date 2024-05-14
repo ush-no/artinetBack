@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 
 
 const app = express();
-app.use(cors({ origin: 'http://localhost:5173' }));{/*http://localhost:5173 */}
+app.use(cors({ origin: 'https://artinet.netlify.app' }));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(bodyParser.json());
